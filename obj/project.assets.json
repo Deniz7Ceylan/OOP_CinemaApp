@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MFramework.Services.FakeData/1.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MFramework.Services.FakeData.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MFramework.Services.FakeData.dll": {}
+        }
+      },
+      "SinemaClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SinemaClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SinemaClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MFramework.Services.FakeData/1.0.18": {
+      "sha512": "KgIu84PKjVSWbVQKLydXGtZu2RIxet6YtJdEQG8WEUvm5xmPYBqe+Gawv2YKAGxlZh8hqPOBeIvY0mY9muZo5A==",
+      "type": "package",
+      "path": "mframework.services.fakedata/1.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MFramework.Services.FakeData.dll",
+        "mframework.services.fakedata.1.0.18.nupkg.sha512",
+        "mframework.services.fakedata.nuspec"
+      ]
+    },
+    "SinemaClassLib/1.0.0": {
+      "type": "project",
+      "path": "../SinemaClassLib/SinemaClassLib.csproj",
+      "msbuildProject": "../SinemaClassLib/SinemaClassLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MFramework.Services.FakeData >= 1.0.18",
+      "SinemaClassLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\deniz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\deniz\\source\\repos\\OOP_CinemaApp\\OOP_CinemaApp.csproj",
+      "projectName": "OOP_CinemaApp",
+      "projectPath": "C:\\Users\\deniz\\source\\repos\\OOP_CinemaApp\\OOP_CinemaApp.csproj",
+      "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\deniz\\source\\repos\\OOP_CinemaApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\deniz\\source\\repos\\SinemaClassLib\\SinemaClassLib.csproj": {
+              "projectPath": "C:\\Users\\deniz\\source\\repos\\SinemaClassLib\\SinemaClassLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MFramework.Services.FakeData": {
+            "target": "Package",
+            "version": "[1.0.18, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

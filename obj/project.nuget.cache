@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t+am+hG4KLj4wzcaLdln54K7leynK8zgakWKJV67wwCuAdA2VDylmxze4pqaLuDAJDBl7KelRx3BSUkYVa26RQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deniz\\source\\repos\\OOP_CinemaApp\\OOP_CinemaApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz\\.nuget\\packages\\mframework.services.fakedata\\1.0.18\\mframework.services.fakedata.1.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
